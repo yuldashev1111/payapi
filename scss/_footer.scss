@@ -1,0 +1,36 @@
+footer{
+    background: #1B262F;
+}
+.footer{
+    padding: 42px 0px;
+    
+    justify-content: space-between;
+    &__list{
+        display: flex;
+        gap: 40px;
+        margin-right: 600PX;
+font-weight: 700;
+font-size: 15px;
+line-height: 18px;
+/* identical to box height */
+
+
+color: #FBFCFE;
+
+mix-blend-mode: normal;
+opacity: 0.7;
+    }
+    &__pap{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__nav{
+        display: flex;
+        gap: 40px;
+    }
+    &__imgs1{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}

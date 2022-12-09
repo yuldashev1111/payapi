@@ -1,0 +1,37 @@
+.ready{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__title{
+        font-family: "dem-serif";
+        font-size: 48px;
+line-height: 56px;
+/* identical to box height, or 117% */
+
+letter-spacing: -0.369231px;
+
+color: #36536B;
+
+
+    }
+    &__btn{
+        background: #DA6D97;
+border-radius: 24px;
+        position: absolute;
+        right: 200px;
+    }
+     &__btn:hover{
+        background: #090205;
+border-radius: 24px;
+        position: absolute;
+        right: 200px;
+    }
+}
+@media only screen and (max-width:768px) {
+    .ready{
+        flex-direction: column;
+        &__btn{
+            right: 100px;
+        }
+    }
+}

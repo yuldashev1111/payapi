@@ -1,0 +1,50 @@
+.banking{
+    margin-top: 156px;
+    gap: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    
+    &__title{
+        align-items: center;
+
+        font-family: "publik-700";
+        font-size: 18px;
+line-height: 25px;
+/* identical to box height, or 139% */
+
+text-align: center;
+letter-spacing: -0.138462px;
+
+color: #36536B;
+
+    }
+    &__text{
+ text-align: center;
+        width: 330px;
+         font-family: "publik-400";
+        font-size: 15px;
+line-height: 25px;
+/* or 167% */
+
+text-align: center;
+letter-spacing: -0.115385px;
+
+color: #36536B;
+
+mix-blend-mode: normal;
+opacity: 0.7;
+    }
+    &__img{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+}
+@media only screen and (max-width:768px) {
+    .banking{
+        &__text{
+            width: 223px;
+        }
+    }
+}

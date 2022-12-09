@@ -1,0 +1,51 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  &__list {
+    display: flex;
+    margin-left: -385px;
+    gap: 10px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+
+    color: #36536b;
+
+    mix-blend-mode: normal;
+    opacity: 0.7;
+  }
+  &__button {
+    background: #ba4270;
+    box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+    border-radius: 24px;
+  }
+  &__img {
+    z-index: -5;
+    position: absolute;
+    left: 50%;
+    opacity: 45%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .header {
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+   
+
+    &__list {
+      margin: 0px;
+    }
+    &__btn {
+      margin-right: 0;
+    }
+
+    &__img {
+      display: none;
+    }
+    
+  }
+}
+

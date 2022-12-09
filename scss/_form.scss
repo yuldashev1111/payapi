@@ -1,0 +1,50 @@
+.form{
+    display: flex;
+    
+    &__title{
+        margin-top: 100px;
+        font-family: "dem-serif";
+        font-size: 48px;
+line-height: 56px;
+/* identical to box height, or 117% */
+
+letter-spacing: -0.369231px;
+
+color: #36536B;
+    }
+    &__text{
+        width: 445px;
+        font-family: "publik-400";
+        font-size: 15px;
+line-height: 28px;
+/* or 187% */
+
+
+color: #36536B;
+
+mix-blend-mode: normal;
+opacity: 0.7;
+    }
+}
+@media only screen and (max-width:768px) {
+    .form{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        
+        &__text{
+            width: 573px;
+
+font-size: 15px;
+line-height: 28px;
+/* or 187% */
+
+text-align: center;
+
+color: #6C8294;
+        }
+    }
+
+}
